@@ -1,11 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import './index.css';
+
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-  </React.StrictMode>,
+  <Router>
+	    <div>
+	    	<Switch>
+
+		        {/* Pages*/}
+		        <Route exact path='/' component={} />
+		        <Route path='/' component={} />
+				    <Route component={Error} />
+	      	</Switch>
+	    </div>
+    </Router>,
   document.getElementById('root')
 );
 
