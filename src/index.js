@@ -16,7 +16,7 @@ ReactDOM.render(
 	    	<Switch>
 		        {/* Pages*/}
 		        <Route exact path='/' component={Home} />
-				<Route path='/signin' component={Signin} />
+				<Route path='/sign-in' component={Signin} />
 	      	</Switch>
 	    </div>
     </Router>,
