@@ -1,6 +1,7 @@
 import React from 'react';
 import Menu from '../menu/Menu';
 import Hero from '../hero/Hero';
+import Services from '../services/Services';
 import Footer from '../footer/Footer';
 
 
@@ -11,6 +12,7 @@ class Home extends React.Component{
             <>
            <Menu/>
            <Hero/>
+           <Services/>
            <Footer />
             </>
         )

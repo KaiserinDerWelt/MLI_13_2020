@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-import './components/css/main.css';
+//import './components/css/main.css';
 
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap';
 
-//import pages here    src/components/img/
+//import pages here    
 import Home from './components/home/Home'; 
 import Signin from './components/signin/Signin';
 
