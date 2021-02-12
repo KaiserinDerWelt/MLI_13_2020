@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 //import './components/css/main.css';
-
-
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap';
 
