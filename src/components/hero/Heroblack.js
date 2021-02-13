@@ -6,9 +6,10 @@ class Heroblack extends React.Component{
             <>
       <div className="heroblack">
       <div className="sign-in-content login">
-        <i className="fa fa-user-circle sign-in-icon"></i>
+        <div className="brandperson"><i className="fa fa-user-circle sign-in-icon"></i> 
+        </div>
         <h1>Sign In</h1>
-        <form>
+        <form className="formContainer">
           <div className="input-wrapper">
             <label htmlFor="username">Username</label><input type="text" id="username" />
           </div>

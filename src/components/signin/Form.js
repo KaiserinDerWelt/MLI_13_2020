@@ -8,7 +8,7 @@ class Form extends React.Component{
       <div className="container-fluid blacksquare">
       <section className="sign-in-content">
         <i className="fa fa-user-circle sign-in-icon"></i>
-        <h1 className="signTitle">Sign In</h1>
+        <h1>Sign In</h1>
         <form>
           <div className="input-wrapper">
             <label htmlFor="username">Username</label><input type="text" id="username" />
