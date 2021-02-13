@@ -95,6 +95,17 @@ body {
   padding-top: 40px !important;
 }
 
+.heroblackfull {
+  background-color: #12002b;
+  background-position: 0 -50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  position: relative;
+  padding-top: 40px !important;
+  padding-bottom: 10px;
+}
+
 .hero-content {
   font-family: 'Roboto', sans-serif !important;
   position: relative;
@@ -213,6 +224,10 @@ h1{
   font-weight: 500;
 }
 
+.customerName{
+  font-size: 35px !important;
+}
+
 i {
   font-size: 18px !important;
   font-weight: 500;
@@ -310,8 +325,10 @@ i {
 }
 
 .header {
-  color: #fff;
+  color: #FFFFFF;
   margin-bottom: 2rem;
+  justify-content: center;
+  text-align: center;
 }
 
 .transaction-button {
