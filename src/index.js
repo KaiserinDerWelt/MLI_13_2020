@@ -8,6 +8,7 @@ import 'bootstrap';
 //import pages here    
 import Home from './components/home/Home'; 
 import Signin from './components/signin/Signin';
+import User from './components/user/User';
 
 
 ReactDOM.render(
@@ -16,7 +17,8 @@ ReactDOM.render(
 	    	<Switch>
 		        {/* Pages*/}
 		        <Route exact path='/' component={Home} />
-				<Route path='/sign-in' component={Signin} />
+				<Route path='/login' component={Signin} />
+				<Route path='/profile' component={User} />
 	      	</Switch>
 	    </div>
     </Router>,
@@ -26,5 +28,5 @@ ReactDOM.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-//<Route path='/' component={} />
+//
 //<Route component={Error} />

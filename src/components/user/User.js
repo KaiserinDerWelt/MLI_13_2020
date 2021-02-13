@@ -1,10 +1,13 @@
 import React from 'react';
+import Menusername from '../menu/Menusername';
+import Footer from '../footer/Footer';
 
 class User extends React.Component{
     render(){
         return(
             <>
-            <h1>User page</h1>
+           <Menusername />
+           <Footer/>
             </>
         )
     }
