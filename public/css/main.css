@@ -70,6 +70,10 @@ body {
   width: 200px;
 }
 
+.fa-user-circle{
+  padding-right: 10px !important;
+}
+
 .hero {
   background-image: url('../img/bank-tree.jpeg');
   background-position: 0 -50px;
@@ -84,8 +88,9 @@ body {
   background-position: 0 -50px;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 450px;
+  height: 520px;
   position: relative;
+  padding-top: 40px !important;
 }
 
 .hero-content {
@@ -109,6 +114,8 @@ body {
   margin-bottom: 0;
   font-size: 0.9rem;
 }
+
+
 
 @media (min-width: 920px) {
   .hero {
@@ -181,12 +188,21 @@ body {
 }
 
 .sign-in-content {
+  font-family: 'Roboto', sans-serif !important;
   box-sizing: border-box;
   background-color: white;
   width: 300px;
   margin: 0 auto;
   padding: 2rem;
 }
+
+.signTitle{
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+}
+
 
 .sign-in-icon {
   font-size: 5rem;

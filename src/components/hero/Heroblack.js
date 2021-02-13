@@ -5,7 +5,7 @@ class Heroblack extends React.Component{
         return(
             <>
       <div className="heroblack">
-      <section className="sign-in-content">
+      <div className="sign-in-content login">
         <i className="fa fa-user-circle sign-in-icon"></i>
         <h1>Sign In</h1>
         <form>
@@ -20,7 +20,7 @@ class Heroblack extends React.Component{
           </div>
          <button className="sign-in-button">Sign In</button>
         </form>
-      </section>
+      </div>
        
       </div>
             </>
