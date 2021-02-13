@@ -1,5 +1,7 @@
 import React from 'react';
 import Menusername from '../menu/Menusername';
+import Savings from  './accountmanagement/Savings';
+
 import Footer from '../footer/Footer';
 
 class User extends React.Component{
@@ -7,6 +9,7 @@ class User extends React.Component{
         return(
             <>
            <Menusername />
+           <Savings />
            <Footer/>
             </>
         )
