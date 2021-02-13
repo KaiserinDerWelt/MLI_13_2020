@@ -1,11 +1,10 @@
 import React from 'react';
 
-
-class Form extends React.Component{
-  render(){
-    return(
-      <>
-      <div className="container-fluid blacksquare">
+class Heroblack extends React.Component{
+    render(){
+        return(
+            <>
+      <div className="heroblack">
       <section className="sign-in-content">
         <i className="fa fa-user-circle sign-in-icon"></i>
         <h1>Sign In</h1>
@@ -22,10 +21,12 @@ class Form extends React.Component{
          <button className="sign-in-button">Sign In</button>
         </form>
       </section>
+       
       </div>
-      </>
-    )
-  }
+            </>
+        )
+    }
 }
 
-export default Form;
+
+export default Heroblack;

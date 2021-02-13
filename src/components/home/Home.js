@@ -10,7 +10,7 @@ class Home extends React.Component{
     render(){
         return(
             <>
-           <Menu/>
+            <Menu/>
            <Hero/>
            <Services/>
            <Footer />

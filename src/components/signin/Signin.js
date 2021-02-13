@@ -1,6 +1,6 @@
 import React from 'react';
 import Menu from '../menu/Menu';
-import Form from '../signin/Form';
+import Heroblack from '../hero/Heroblack';
 import Footer from '../footer/Footer';
 
 class Signin extends React.Component{
@@ -8,7 +8,7 @@ class Signin extends React.Component{
         return(
             <>
             <Menu />
-            <Form/>
+            <Heroblack/>
             <Footer/>
             </>
         )

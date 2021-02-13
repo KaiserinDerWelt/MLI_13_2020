@@ -1,5 +1,5 @@
 html {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -17,7 +17,7 @@ body {
   flex: 1;
 }
 
-.bg-dark {
+.blacksquare {
   background-color: #12002b !important;
 }
 
@@ -79,7 +79,17 @@ body {
   position: relative;
 }
 
+.heroblack {
+  background-color: #12002b;
+  background-position: 0 -50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  position: relative;
+}
+
 .hero-content {
+  font-family: 'Roboto', sans-serif !important;
   position: relative;
   top: 2rem;
   width: 200px;
@@ -135,22 +145,27 @@ body {
 }
 
 .feature-icon {
-  width: 100px;
+  width: 155px!important;
   border: 10px solid #00bc77;
   border-radius: 50%;
   padding: 1rem;
 }
 
 .feature-item {
+  font-family: 'Roboto', sans-serif;
   flex: 1;
   padding: 2.5rem;
+  justify-content: center;
+  text-align: center;
 }
 
 .feature-item-title {
+  font-family: 'Roboto', sans-serif !important;
   color: #222;
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
+  padding-top: 20px;
 }
 
 .sign-in-button {
@@ -170,7 +185,6 @@ body {
   background-color: white;
   width: 300px;
   margin: 0 auto;
-  margin-top: 3rem;
   padding: 2rem;
 }
 
@@ -203,6 +217,7 @@ body {
 }
 
 .footer {
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   border-top: 2px solid #ccc;
