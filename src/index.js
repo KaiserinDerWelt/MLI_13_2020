@@ -9,6 +9,7 @@ import 'bootstrap';
 import Home from './components/home/Home'; 
 import Signin from './components/signin/Signin';
 import User from './components/user/User';
+import Transactionaccordion from './components/functionalities/Transactionaccordion';
 
 
 ReactDOM.render(
@@ -19,6 +20,7 @@ ReactDOM.render(
 		        <Route exact path='/' component={Home} />
 				<Route path='/login' component={Signin} />
 				<Route path='/profile' component={User} />
+				<Route path='/extract' component={Transactionaccordion} />
 	      	</Switch>
 	    </div>
     </Router>,
