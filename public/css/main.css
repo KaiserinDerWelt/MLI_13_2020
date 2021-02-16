@@ -385,11 +385,17 @@ tr.hide-table-padding td {
   top: 50%;
   transform: translate(0, -50%);
   content: 'v';
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
 }
+
 .accordion-toggle.collapsed .expand-button:after
 {
-  content: '^';
-  font-size:  25px;
+  content: "ʌ";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
 }
 
 /* Put fontawesome arrow up  and down*/

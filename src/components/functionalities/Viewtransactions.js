@@ -17,32 +17,6 @@ class Viewtransactions extends React.Component{
       </tr>
     </thead>
     <tbody> 
-      <tr className="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
-<td className="expand-button"></td>
-<td>Cell</td>
-<td>Cell</td>
-<td>Cell</td>
-<td>Add</td>
-</tr>
-<tr className="hide-table-padding">
-<td></td>
-<td colSpan="3">
-<div id="collapseOne" className="collapse in p-3">
-  <div className="row">
-    <div className="col-2">Transaction Type:</div>
-  </div>
-  <div className="row">
-    <div className="col-2"></div>
-  </div>
-  <div className="row">
-    <div className="col-2"></div>
-  </div>
-  <div className="row">
-    <div className="col-2"></div>
-  </div>
-
-</div></td>
-</tr>
       <tr className="accordion-toggle collapsed" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
 <td className="expand-button"></td>
 <td>Cell</td>
