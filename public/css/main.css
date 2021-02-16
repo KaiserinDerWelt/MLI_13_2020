@@ -384,9 +384,12 @@ tr.hide-table-padding td {
   left:.75rem;
   top: 50%;
   transform: translate(0, -50%);
-  content: '-';
+  content: 'v';
 }
 .accordion-toggle.collapsed .expand-button:after
 {
-  content: '+';
+  content: '^';
+  font-size:  25px;
 }
+
+/* Put fontawesome arrow up  and down*/
