@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Viewtransactions extends React.Component{
+class Viewtransactioncreditcard extends React.Component{
     render(){
         return(
             <>
@@ -48,4 +48,4 @@ class Viewtransactions extends React.Component{
     }
 }
 
-export default Viewtransactions;
+export default Viewtransactioncreditcard;

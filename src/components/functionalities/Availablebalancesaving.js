@@ -1,13 +1,13 @@
 import React from 'react';
 
-class Availablebalance extends React.Component{
+class Availablebalancesaving extends React.Component{
     render(){
         return(
             <>
              <div className="container-fluid">
         <div className="account-content-wrapper-extract">
-          <h3 className="account-title-general-balance">Argent Bank Checking (x8349)</h3>
-          <p className="account-amount-general-balance">$2,082.79</p>
+          <h3 className="account-title-general-balance">Argent Bank Savings (x6712)</h3>
+          <p className="account-amount-general-balance">$10,928.42</p>
           <p className="account-amount-description-general-balance">Available Balance</p>
         </div>
       </div>
@@ -17,4 +17,4 @@ class Availablebalance extends React.Component{
 }
 
 
-export default Availablebalance;
+export default Availablebalancesaving;

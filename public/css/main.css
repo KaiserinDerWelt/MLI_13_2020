@@ -327,6 +327,14 @@ i {
   flex: 1;
 }
 
+.account-content-wrapper-extract {
+
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  flex: 1;
+}
+
 .edit-button {
   border-color: #00bc77;
   background-color: #00bc77;
@@ -370,6 +378,12 @@ i {
 
 
 /*Table Accordion Styling */
+
+.transparentHeader{
+  background-color:#EFEFEF;
+  font-weight: bold;
+}
+
 tr.hide-table-padding td {
   padding: 0;
 }
@@ -384,7 +398,7 @@ tr.hide-table-padding td {
   left:.75rem;
   top: 50%;
   transform: translate(0, -50%);
-  content: 'v';
+  content: 'ʌ';
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
@@ -392,10 +406,47 @@ tr.hide-table-padding td {
 
 .accordion-toggle.collapsed .expand-button:after
 {
-  content: "ʌ";
+  content: "v";
   font-size: 16px;
   font-style: normal;
   font-weight: bold;
 }
 
-/* Put fontawesome arrow up  and down*/
+.table-responsive {
+  display: flex !important;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  justify-content: center !important;
+}
+.table{
+  width: 97% !important;
+  font-family: 'Roboto', sans-serif !important;
+  background-color: #FFFFFF !important;
+  color:#2c3e50
+}
+
+.account-content-wrapper-extract{
+  outline: 2px solid #EFEFEF;
+}
+
+.account-title-general-balance{
+  font-family: 'Roboto', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.account-amount-general-balance {
+  font-family: 'Roboto', sans-serif !important;
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-size: 50px !important;
+}
+
+.account-amount-description-description {
+  font-family: 'Roboto', sans-serif !important;
+  margin: 0;
+}
