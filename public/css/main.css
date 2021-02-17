@@ -240,7 +240,7 @@ h1{
 }
 
 .customerNameEdit{
-  font-size: 35px !important;
+  font-size: 27px !important;
   color:black;
 }
 
@@ -497,4 +497,40 @@ tr.hide-table-padding td {
 .account-amount-description-description-saving{
   font-family: 'Roboto', sans-serif !important;
   margin: 0;
+}
+
+/*Edit toggle style */
+.editButtons{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.lastnameEdit{
+  color: #000000;
+  border-color: gray;
+  border-width: 2px;
+}
+
+.nameEdit{
+  margin-right: 15px;
+  color: #000000;
+  border-color: gray;
+  border-width: 2px;
+}
+
+.edit-button-save{
+  font-family: 'Roboto', sans-serif !important;
+  margin-right: 15px;
+  width: 80px !important;
+  color: #6558F6;
+  border-color: #6558F6;
+  border-width: 2px;
+}
+
+.edit-button-button{
+  font-family: 'Roboto', sans-serif !important;
+  width: 80px !important;
+  color: #6558F6;
+  border-color: #6558F6;
+  border-width: 2px;
 }

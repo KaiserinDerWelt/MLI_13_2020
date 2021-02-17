@@ -2,7 +2,6 @@ import React from 'react';
 import Menusername from '../menu/Menusername';
 import Availablebalancesaving from './Availablebalancesaving';
 import Viewtransactionsaving from './Viewtransactionsaving';
-import Editname from './Editname';
 import Footer from '../footer/Footer';
 
 // This is my transactions savings
@@ -15,7 +14,6 @@ class Transactionsaving extends React.Component{
               <Availablebalancesaving />
             <div className="herograyfull"> 
               <Viewtransactionsaving />
-              <Editname />
             </div>
             <Footer/>
             </>
