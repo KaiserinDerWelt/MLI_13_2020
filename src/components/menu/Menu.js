@@ -15,12 +15,10 @@ class Menu extends React.Component{
         <h1 className="sr-only">Argent Bank</h1>
       </a>
       <div>
-        <a className="main-nav-item">
           <i className="fa fa-user-circle"></i>
           <NavLink to="/profile" className="nav-link-property" >
           Sign In
           </NavLink>
-        </a>
       </div>
     </nav>
             </>
