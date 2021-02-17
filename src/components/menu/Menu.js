@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
 
 class Menu extends React.Component{
     render(){
@@ -16,7 +17,9 @@ class Menu extends React.Component{
       <div>
         <a className="main-nav-item">
           <i className="fa fa-user-circle"></i>
+          <NavLink to="/profile" className="nav-link-property" >
           Sign In
+          </NavLink>
         </a>
       </div>
     </nav>
