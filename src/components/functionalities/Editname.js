@@ -7,8 +7,8 @@ class Editname extends React.Component{
              <div className="header">
         <h1 className="customerNameEdit">Welcome back</h1>
          <div className="editInputs">
-             <input className="nameEdit"></input>
-             <input className="lastnameEdit"></input>
+             <input className="nameEdit" placeholder="Name"></input>
+             <input className="lastnameEdit" placeholder="Lastname"></input>
          </div>
          <br></br>
          <div className="editButtons">
