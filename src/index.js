@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Provider} from 'react-redux';
+//import {Provider} from 'react-redux';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap';
@@ -15,7 +15,6 @@ import Transactioncreditcard from './components/functionalities/Transactioncredi
 
 
 ReactDOM.render(
-	<Provider store={store}>
   <Router>
 	    <div>
 	    	<Switch>
@@ -28,8 +27,7 @@ ReactDOM.render(
 				<Route path='/extract-credit-card' component={Transactioncreditcard} />
 	      	</Switch>
 	    </div>
-    </Router>
-	</Provider>,
+    </Router>,
   document.getElementById('root')
 );
 
