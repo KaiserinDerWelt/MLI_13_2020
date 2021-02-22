@@ -1,34 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-//import {Provider} from 'react-redux';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap';
+import React from "react";
+import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.css";
+import axios from "axios";
+import { createStore } from "redux";
+import { Provider } from "react-redux";
+import App from "./App";
 
-//import pages here    
-import Home from './components/home/Home'; 
-import Signin from './components/signin/Signin';
-import User from './components/user/User';
-import Transactionaccordion from './components/functionalities/Transactionaccordion';
-import Transactionsaving from './components/functionalities/Transactionsaving';
-import Transactioncreditcard from './components/functionalities/Transactioncreditcard'
+import rootReducer from "./redux/reducers/rootReducer";
 
+// Change the APIs server base url from here
+axios.defaults.baseURL = "http://localhost:3001/api/v1";
+
+const store = createStore(rootReducer);
 
 ReactDOM.render(
-  <Router>
-	    <div>
-	    	<Switch>
-		        {/* Pages*/}
-		        <Route exact path='/' component={Home} />
-				<Route path='/login' component={Signin} />
-				<Route path='/profile' component={User} />
-				<Route path='/extract' component={Transactionaccordion} />
-				<Route path='/extract-savings' component={Transactionsaving} />
-				<Route path='/extract-credit-card' component={Transactioncreditcard} />
-	      	</Switch>
-	    </div>
-    </Router>,
-  document.getElementById('root')
+	<Provider store={store}>
+		<App />
+	</Provider>,
+	document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
