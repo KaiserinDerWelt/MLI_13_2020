@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
+import 'bootstrap';
 import axios from "axios";
 import { createStore } from "redux";
 import { Provider } from "react-redux";

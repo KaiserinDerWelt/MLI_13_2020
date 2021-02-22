@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 class Savings extends React.Component{
     render(){
@@ -11,8 +12,15 @@ class Savings extends React.Component{
           <p className="account-amount-description">Available Balance</p>
         </div>
         <div className="account-content-wrapper cta">
-          <button className="transaction-button">View transactions</button>
-        </div>
+						<Link
+							style={{ textDecoration: "none" }}
+							to="/extract-savings"
+						>
+							<button className="transaction-button">
+								View transactions
+							</button>
+						</Link>
+					</div>
       </div>
             </>
         )

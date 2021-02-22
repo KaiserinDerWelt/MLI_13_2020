@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 
 class Checking extends React.Component{
@@ -12,8 +13,12 @@ class Checking extends React.Component{
           <p className="account-amount-description">Available Balance</p>
         </div>
         <div className="account-content-wrapper cta">
-          <button className="transaction-button">View transactions</button>
-        </div>
+						<Link style={{ textDecoration: "none" }} to="/extract">
+							<button className="transaction-button">
+								View transactions
+							</button>
+						</Link>
+					</div>
       </div>
             </>
         )
