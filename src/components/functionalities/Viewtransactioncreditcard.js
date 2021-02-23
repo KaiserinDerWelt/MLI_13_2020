@@ -20,9 +20,9 @@ class Viewtransactioncreditcard extends React.Component{
       <tr className="accordion-toggle collapsed" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
 <td className="expand-button"></td>
 <td>Date</td>
-<td>Transaction description</td>
-<td>$Amount</td>
-<td>$Balance</td>
+<td>CVS Pharmacy</td>
+<td>$70.21</td>
+<td>$125.00</td>
 </tr>
 <tr className="hide-table-padding">
 <td></td>
