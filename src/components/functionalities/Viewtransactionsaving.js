@@ -20,9 +20,9 @@ class Viewtransactionsaving extends React.Component{
       <tr className="accordion-toggle collapsed" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
 <td className="expand-button"></td>
 <td>Date</td>
-<td>Transaction description</td>
-<td>$Amount</td>
-<td>$Balance</td>
+<td>Macys</td>
+<td>$147</td>
+<td>$220.04</td>
 </tr>
 <tr className="hide-table-padding">
 <td></td>
