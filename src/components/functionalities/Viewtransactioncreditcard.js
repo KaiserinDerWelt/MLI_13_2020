@@ -19,7 +19,7 @@ class Viewtransactioncreditcard extends React.Component{
     <tbody> 
       <tr className="accordion-toggle collapsed" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
 <td className="expand-button"></td>
-<td>Date</td>
+<td>June 20th, 2020</td>
 <td>CVS Pharmacy</td>
 <td>$70.21</td>
 <td>$125.00</td>
@@ -29,13 +29,20 @@ class Viewtransactioncreditcard extends React.Component{
 <td colSpan="4">
 <div id="collapseTwo" className="collapse in p-3">
   <div className="row">
-    <div className="col-2">Transaction</div>
+    <div className="col-2" className="microText">Transaction type: Electronic</div>
   </div>
+  <br></br>
   <div className="row">
-    <div className="col-2">Category</div>
+    <div className="col-2" className="microText">Category:</div>
   </div>
+  <br></br>
   <div className="row">
-    <div className="col-2">Notes</div>
+    <div className="col-2" className="microText">Notes:
+    <input type="text" name="product" list="notes" className="inputNotes"/> 
+    <datalist>
+        <option>Was expensive</option>
+    </datalist>
+    </div>
   </div>
 </div></td>
 </tr>

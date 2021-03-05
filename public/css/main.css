@@ -534,3 +534,22 @@ tr.hide-table-padding td {
   border-color: #6558F6;
   border-width: 2px;
 }
+
+.microText{
+  font-size: 11px;
+  font-weight: 200;
+  color:#222;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.inputTransaction{
+border-color: #EFEFEF;
+border: none;
+width: 70%;
+}
+
+.inputNotes{
+  border-color: #EFEFEF;
+  border: none;
+  width: 70%;
+}
