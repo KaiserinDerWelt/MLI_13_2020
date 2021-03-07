@@ -33,7 +33,14 @@ class Viewtransactionsaving extends React.Component{
   </div>
   <br></br>
   <div className="row">
-    <div className="col-2"  className="microText">Category:</div>
+  <div className="col-2" className="microText">Category:
+    <input type="text" name="product" list="productName" className="inputTransaction"/>
+    <datalist id="productName">
+        <option>Food</option>
+        <option>Education</option>
+        <option>Entertainment</option>
+    </datalist>
+    </div>
   </div>
   <br></br>
   <div className="row">
